@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row justify-content-center"> <!-- Основной блок для работы с колонками -->
+        <div class="col-2 text-bg-dark p-3" style="min-height: 100vh;">
+            <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                             class="d-inline-block align-text-top">
+                        Меню
+                    </a>
+                </div>
+            </nav>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="categories.html">Категории</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="orders.html">Заказы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-10"> <!-- Колонка шириной 10/12 для размещения основного контента -->
+            <figure class="text-center mt-5"> <!-- Поле раздела "Каталог" шириной 10/12-->
+                <blockquote class="blockquote">
+                    <h2>Каталог</h2>
+                </blockquote>
+                <p><small></small></p>
+            </figure>
+            <div class="row row-cols-md-2 g-4 justify-content-center">
+                <div class="col"> <!-- Колонка для отображения столбца-->
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider cart with supporting text below as a
+                                natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                            <a href="#" class="btn btn-primary">Edit</a>
+                            <small class="text-body-secondary ">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Колонка для отображения столбца-->
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider cart with supporting text below as a
+                                natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                            <a href="#" class="btn btn-primary">Edit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Колонка для отображения столбца-->
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider cart with supporting text below as a
+                                natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                            <a href="#" class="btn btn-primary">Edit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Колонка для отображения столбца-->
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider cart with supporting text below as a
+                                natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                            <a href="#" class="btn btn-primary">Edit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
