@@ -77,7 +77,7 @@ class MyServer(SimpleHTTPRequestHandler):
     def do_POST(self):
         """ Метод do_POST для обработки формы """
         # Проверка работы в браузере с адресом http://localhost:8080/categories.html
-        print("!!! МЕТОД POST ВЫЗВАН !!!")
+        print("!!! МЕТОД ОБРАБОТКИ ФОРМЫ ВЫЗВАН !!!")
         # 1. Определяем длину входящих данных
         content_length = int(self.headers.get('Content-Length', 0))
         # 2. Читаем тело запроса
