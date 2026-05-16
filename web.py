@@ -94,7 +94,7 @@ class MyServer(SimpleHTTPRequestHandler):
             print(f"Связка сработала! Пользователь,{username} с почтой {email} написал:{message}")
         # 5. Отправляем ответ клиенту
         self.send_response(200)
-        self.send_header("Content-type", "text/html")  # На POST отвечаем текстом HTML
+        self.send_header("Content-type", "text/html; charset=utf-8")  # На POST отвечаем текстом HTML
         self.end_headers()
         self.wfile.write(bytes("<h3>Спасибо! Сообщение получено.</h3>", "utf-8"))
 
